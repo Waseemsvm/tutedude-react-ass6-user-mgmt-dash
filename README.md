@@ -43,3 +43,8 @@ Use the JSON Placeholder fake API:
 - POST user: https://jsonplaceholder.typicode.com/users
 - PUT/PATCH user: https://jsonplaceholder.typicode.com/users/:id
 - DELETE user: https://jsonplaceholder.typicode.com/users/:id
+
+
+# Deploy Link
+
+https://user-mgmt-dash.netlify.app/
