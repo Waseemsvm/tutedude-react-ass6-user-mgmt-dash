@@ -1,0 +1,74 @@
+.table,
+.tbody,
+.table td,
+.table th,
+.table thead {
+  border: 2px solid rgb(134, 6, 6);
+  background-color: rgb(237, 219, 219);
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.tableCont {
+  width: 100%;
+  overflow: auto;
+}
+
+.table td,
+.table th {
+  padding: 10px;
+  text-align: cen;
+}
+
+.table th {
+  width: 12rem;
+}
+.table thead {
+  position: sticky;
+  top: 0;
+  outline: 1px solid brown;
+}
+.tableCont {
+  height: 100%;
+  max-width: 40rem;
+  margin: auto;
+}
+
+.tableCont > div {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.tableCont > div:nth-child(2) {
+  height: calc(100% - 4rem);
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0.5rem;
+  border-top: 2px solid brown;
+  border-right: 2px solid brown;
+  border-left: 2px solid brown;
+  border-bottom: 1px solid brown;
+}
+
+.toolbar .btn {
+  height: 2.5rem;
+}
+
+.toolbar p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: rgb(244, 194, 194);
+  color: rgb(134, 6, 6);
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.tabCont{
+  
+}
