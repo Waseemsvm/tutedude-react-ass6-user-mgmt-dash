@@ -1,12 +1,45 @@
-# React + Vite
+# Assignment 6 - User Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Requirement:
 
-Currently, two official plugins are available:
+### Fetch and Display Users:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- On component mount, fetch a list of users from the provided API.
+- Display users in a table or card layout showing Name, Email, and Username.
 
-## Expanding the ESLint configuration
+### Add User:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Create a form with inputs for Name, Email, and Username.
+- On form submit, send a POST request to add the user.
+- Update the UI to include the new user.
+
+### Update User:
+
+- Add an edit button for each user.
+- When clicked, populate the form with the user’s data.
+- Allow editing and submitting changes via a PUT/PATCH request.
+- Reflect changes in the UI after a successful update.
+
+### Delete User:
+
+- Add a delete button for each user.
+- Confirm deletion before sending a DELETE request.
+- Remove the user from the UI on success.
+
+### Error Handling:
+
+- Show appropriate error messages when API requests fail.
+- Validate form inputs (non-empty and valid email format).
+
+### Loading State:
+
+- Display a loading indicator while fetching data.
+
+### API to use:
+
+Use the JSON Placeholder fake API:
+
+- GET users: https://jsonplaceholder.typicode.com/users
+- POST user: https://jsonplaceholder.typicode.com/users
+- PUT/PATCH user: https://jsonplaceholder.typicode.com/users/:id
+- DELETE user: https://jsonplaceholder.typicode.com/users/:id
